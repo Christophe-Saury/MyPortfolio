@@ -1,23 +1,35 @@
-import "./App.css";
-import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
-  return (
-    <div
-      className="overflow-x-hidden text-neutral-300 antialiased 
-    selection:text-cyan-900 selection:bg-cyan-300"
-    >
-      <div className="absolute top-0 -z-10 h-full w-full"></div>
-      <div className="fixed top-0 -z-10 h-full w-full"></div>
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+  const [count, setCount] = useState(0)
 
-      <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero />
+  return (
+    <>
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
       </div>
-    </div>
-  );
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
 }
 
-export default App;
+export default App
