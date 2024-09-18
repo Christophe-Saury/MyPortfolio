@@ -6,7 +6,7 @@ function App() {
   return (
     <div
       className="overflow-x-hidden text-neutral-300 antialiased 
-    selection:text-cyan-900 selection:bg-cyan-300"
+    selection:text-cyan-900 selection:bg-cyan-300 "
     >
       <div className="absolute top-0 -z-10 h-full w-full"></div>
       <div className="fixed top-0 -z-10 h-full w-full"></div>
