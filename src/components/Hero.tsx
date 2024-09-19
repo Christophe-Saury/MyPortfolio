@@ -9,8 +9,8 @@ export const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <h1
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16
-             lg:text-8xl"
+              className="pb-12 text-6xl font-thin tracking-tight lg:mt-16
+             lg:text-6xl"
             >
               Christophe SAURY
             </h1>
@@ -27,7 +27,7 @@ export const Hero = () => {
             <img
               src={profilePic}
               alt="profilePic"
-              className="w-3/4 rounded-3xl"
+              className="w-4/5 rounded-3xl"
             />
           </div>
         </div>
