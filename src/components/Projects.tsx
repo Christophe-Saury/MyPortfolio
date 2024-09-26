@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div className=" pb-8">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -13,24 +13,24 @@ const Projects = () => {
       >
         Projects
       </motion.h1>
-      <div>
+      <div className="">
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-8 flex flex-column  flex-wrap lg:flex-row justify-center"
+            className="mb-8 border-b border-gray-900 pb-6 flex flex-column  flex-wrap md:flex-row justify-center"
           >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className=" lg:w1/4"
+              className=" mb-6  md:w1/4 justify-self-center"
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={200}
+                height={200}
                 alt={project.title}
-                className="mb-6 rounded ml-4"
+                className="mb-6 rounded ml-0 justify-self-center sm:ml-12 sm:justify-self-start "
               />
             </motion.div>
             <motion.div
