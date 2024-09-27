@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/new_logo.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Navbar = () => {
