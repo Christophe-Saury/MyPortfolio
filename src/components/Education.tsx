@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { EDUCATION } from "../constants";
 import { motion } from "framer-motion";
+import { LanguageContext } from "../context/LanguageContext";
 
 const Education = () => {
+  const { language } = useContext(LanguageContext);
+  const educationText = language === "EN" ? EDUCATION.EN : EDUCATION.FR;
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -14,7 +17,7 @@ const Education = () => {
         Education
       </motion.h1>
       <div>
-        {EDUCATION.map((education, index) => (
+        {educationText.map((education, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

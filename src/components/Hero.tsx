@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/christopheSauryProfile.png";
 import { motion } from "framer-motion";
+import { LanguageContext } from "../context/LanguageContext";
 
 const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
@@ -11,7 +12,10 @@ const container = (delay: number) => ({
     transition: { duration: 0.5, delay: delay },
   },
 });
+
 export const Hero = () => {
+  const { language } = useContext(LanguageContext);
+  const heroText = language === "EN" ? HERO_CONTENT.EN : HERO_CONTENT.FR;
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -40,7 +44,7 @@ export const Hero = () => {
               animate="visible"
               className="w-full my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              {HERO_CONTENT}
+              {heroText}
             </motion.p>
           </div>
         </div>

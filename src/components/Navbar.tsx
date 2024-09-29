@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import logo from "../assets/new_logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
 import ExampleDoc from "../assets/CV-Christophe-SAUR.pdf";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { LanguageContext } from "../context/LanguageContext.tsx";
 
 export const Navbar = () => {
-  const [language, setLanguage] = useState("EN");
+  const { language, setLanguage } = useContext(LanguageContext);
 
   const handleLanguageChange = () => {
     setLanguage(language === "EN" ? "FR" : "EN");

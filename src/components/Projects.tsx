@@ -1,8 +1,11 @@
-import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import React, { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext.tsx";
 
 const Projects = () => {
+  const { language } = useContext(LanguageContext);
+  const projectText = language === "EN" ? PROJECTS.EN : PROJECTS.FR;
   return (
     <div className=" pb-8">
       <motion.h1
@@ -14,7 +17,7 @@ const Projects = () => {
         Projects
       </motion.h1>
       <div className="">
-        {PROJECTS.map((project, index) => (
+        {projectText.map((project, index) => (
           <div
             key={index}
             className="mb-8 border-b border-gray-900 pb-6 flex flex-column  flex-wrap md:flex-row justify-center"

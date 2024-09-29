@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
+import { LanguageContext } from "../context/LanguageContext";
 
 const Experience = () => {
+  const { language } = useContext(LanguageContext);
+  const experienceText = language === "EN" ? EXPERIENCES.EN : EXPERIENCES.FR;
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -14,7 +17,7 @@ const Experience = () => {
         Experiences
       </motion.h1>
       <div>
-        {EXPERIENCES.map((experience, index) => (
+        {experienceText.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
