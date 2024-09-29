@@ -7,7 +7,7 @@ import "./index.css";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <LanguageProvider
-      setLanguage={function (language: string): void {
+      setLanguage={function (): void {
         throw new Error("Function not implemented.");
       }}
       language={""}
