@@ -54,10 +54,10 @@ export const Hero = () => {
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="profilePic"
+              alt="Coding Gif"
+              src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"
               className="w-4/5 rounded-3xl"
-            />
+            ></motion.img>
           </div>
         </div>
       </div>
