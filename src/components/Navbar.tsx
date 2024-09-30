@@ -2,12 +2,14 @@ import React, { useContext } from "react";
 import logo from "../assets/new_logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
-import ExampleDoc from "../assets/CV-Christophe-SAUR.pdf";
+import resumeRefEN from "../assets/CV-Christophe-SAURY-en.pdf";
+import resumeRefFR from "../assets/CV-Christophe-SAURY-fr.pdf";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { LanguageContext } from "../context/LanguageContext.tsx";
 
 export const Navbar = () => {
   const { language, setLanguage } = useContext(LanguageContext);
+  const resumeReference = `${language === "EN" ? resumeRefEN : resumeRefFR}`;
 
   const handleLanguageChange = () => {
     setLanguage(language === "EN" ? "FR" : "EN");
@@ -33,7 +35,13 @@ export const Navbar = () => {
         >
           <FaGithub />
         </a>
-        <a href={ExampleDoc} download="CV-Christophe-SAURY" target="_blank">
+        <a
+          href={resumeReference}
+          download={`CV-Christophe-SAURY${
+            language === "EN" ? "-en" : "-fr"
+          }.pdf`}
+          target="_blank"
+        >
           <TbFileCv />
         </a>
 
