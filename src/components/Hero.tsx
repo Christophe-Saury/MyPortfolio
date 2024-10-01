@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/christopheSauryProfile.png";
 import { motion } from "framer-motion";
 import { LanguageContext } from "../context/LanguageContext";
 
@@ -25,8 +24,8 @@ export const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16
-             lg:text-6xl text-center"
+              className="pb-16 text-6xl font-thin tracking-tight 
+             lg:text-6xl text-center lg:mt-16"
             >
               Christophe SAURY
             </motion.h1>
@@ -48,15 +47,15 @@ export const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:motion.p-8">
-          <div className="flex justify-center">
+        <div className="w-full lg:w-1/2 lg:motion.p-8 ">
+          <div className="flex justify-center align-middle h-full">
             <motion.img
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
               alt="Coding Gif"
               src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"
-              className="w-4/5 rounded-3xl"
+              className="w-4/5 rounded-3xl m-auto lg:mt-16"
             ></motion.img>
           </div>
         </div>

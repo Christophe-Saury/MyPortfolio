@@ -9,7 +9,7 @@ const About = () => {
   const aboutText = language === "EN" ? ABOUT_TEXT.EN : ABOUT_TEXT.FR;
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4 lg:mt-30">
       <h1 className="my-20 text-center text-4xl">
         About
         <span className=""> Me</span>

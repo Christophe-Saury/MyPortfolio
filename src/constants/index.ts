@@ -4,14 +4,16 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = {
-  EN: `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`,
-  FR: `Je suis un développeur full stack passionné avec un talent pour créer des applications web robustes et évolutives. Avec 5 ans d'expérience pratique, j'ai affiné mes compétences dans les technologies front-end comme React et Next.js, ainsi que dans les technologies back-end comme Node.js, MySQL, PostgreSQL et MongoDB. Mon objectif est de mettre mon expertise à profit pour créer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`,
+  EN: `I am a French-American full stack developer with an interest in serving users by building robust and scalable web applications. With 4 years of hands-on experience through my school projects and internships, I have honed my skills in back-end technologies like Java, Python, PHP and MySQL, as well as front-end technologies like React, Tailwind and Typescript. My goal is to keep improving my skills while creating innovative solutions that drive business growth and deliver exceptional user experiences.`,
+  FR: `Je suis un développeur full stack franco-américain avec un intérêt pour servir les utilisateurs en créant des applications web robustes et évolutives. Avec 4 ans d'expérience pratique à travers mes projets scolaires et mes stages, j'ai affiné mes compétences dans les technologies back-end comme Java, Python, PHP et MySQL, ainsi que dans les technologies front-end comme React, Tailwind et Typescript. Mon objectif est de continuer à améliorer mes compétences tout en créant des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`,
 };
 
 
+
+// text to change if i add an about me section, talk about my interests in other cultures and languages?
 export const ABOUT_TEXT = {
-  EN: `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`,
-  FR: "",
+  EN: `I’m passionate about learning new languages and exploring cultural differences, which led me to study abroad in Prague and Seoul. During my second year at ISEP, I spent a semester in Prague, where I discovered my love for coding. Staying in dorms with experienced developers from around the world, I gained valuable insights and help with learning Java. Their support helped me overcome challenges and sparked my passion for coding, which ultimately led me to choose it as my major at ISEP. I then went on to do an internship in the French Navy as a Web Developer and studied UX Design during my semester in Seoul.`,
+  FR: `Je suis passionné par l'apprentissage de langues étrangères et l'exploration des différences culturelles, ce qui m'a conduit à étudier à Prague et à Séoul. Pendant ma deuxième année à ISEP, j'ai passé un semestre à Prague, où j'ai découvert ma passion pour la programmation. En restant dans des dortoirs avec des développeurs expérimentés du monde entier, j'ai reçu de l'aide pour apprendre le Java. Ce soutien m'a aidé à développer mon intérêt pour la programmation, ce qui m'a amené à choisir la programmation comme ma majeure. J'ai pu ensuite continuer en faisant un stage à la Marine Nationale en tant que développeur web et en apprenant l'UX Design pendant mon semestre à Seoul.`,
 };
 
 
@@ -19,61 +21,67 @@ export const EXPERIENCES = {
   EN: [
     {
       year: "2024 - Present : (6 Months)",
-      role: "Chef de Projet - Sécurisation de Flux Informatiques",
+      role: "IT Project Lead",
       company: "Devoteam",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+      description: `Lead initiatives aimed at securing computer data flows for Carrefour Banque, ensuring compliance with GDPR regulations and mitigating any potential legal issues.`,
+      technologies: ["Priority Management", "Communication"],
     },
     {
       year: "2022 - 2023 : (6 Months)",
       role: "Développeur Web Full Stack",
       company: "Marine Nationale",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+      description: `Built a web application to manage the 400,000+ yearly access requests to the Brest Naval Base. 
+Addressed a security concern of the naval base.
+Improved the management and oversight of the demand validation process. 
+App is adaptable to the 19 other bases of the French Navy.
+The app was made by the demand of Fleet Vice Admiral COEFFE, Commander of the Brest Naval Base.`,
+      technologies: ["PHP", "Javascript", "mySQL"],
     },
     {
-      year: "2021 - 2022 : (11 Months)",
+      year: "2021 - 2022 : (15 Months)",
       role: "IT Support and customer service contractor",
       company: "Numéris (Intérim Agency)",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+      description: `Effectued level 1 IT support missions for AXA and IDEX, as well as customer service missions for other companies.`,
+      technologies: ["Communication"],
     },
     {
       year: "2021 : (5 Months)",
       role: "Crew Member",
       company: "McDonald's",
-      description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-      technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+      description: `Worked in a team to cook and serve food to customers.
+Worked the grill, assembled burgers, and handled frying as part of my kitchen responsibilities.`,
+      technologies: ["Working under pressure"],
     },
   ],
   FR: [
     {
-      year: "2024 - Present : (6 Months)",
-      role: "Chef de Projet - Sécurisation de Flux Informatiques",
+      year: "2024 - Présent : (6 Mois)",
+      role: "Chef de Projet IT",
       company: "Devoteam",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+      description: `Direction d'initiatives visant à sécuriser les flux de données informatiques pour Carrefour Banque, en veillant au respect du règlement GDPR et en atténuant les problèmes juridiques potentiels.`,
+      technologies: ["Gestion des priorités", "Communication"],
     },
     {
-      year: "2022 - 2023 : (6 Months)",
+      year: "2022 - 2023 : (6 Mois)",
       role: "Développeur Web Full Stack",
       company: "Marine Nationale",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+      description: `Développement d'une application web pour gérer plus de 400 000 demandes annuelles d'accès à la base navale de Brest. Ce projet a permis de résoudre une problématique de sécurité majeure tout en améliorant la gestion et le suivi du processus de validation des demandes. L'application, conçue pour être adaptable aux 19 autres bases de la Marine française, a été réalisée à la demande de l'amiral de flotte COEFFE, commandant de la base navale de Brest.`,
+      technologies: ["PHP", "Javascript", "mySQL"],
     },
     {
-      year: "2021 - 2022 : (11 Months)",
-      role: "IT Support and customer service contractor",
-      company: "Numéris (Intérim Agency)",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+      year: "2021 - 2022 : (15 Mois)",
+      role: "Contractor de support IT et service client",
+      company: "Numéris (Agence Intérim)",
+      description: `Effectué des missions de support IT de niveau 1 pour AXA et IDEX, ainsi que des missions de service client pour d'autres entreprises.`,
+      technologies: ["Communication"],
     },
     {
-      year: "2021 : (5 Months)",
-      role: "Crew Member",
+      year: "2021 : (5 Mois)",
+      role: "Membre de l'équipe",
       company: "McDonald's",
-      description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-      technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+      description: `Travaillé en équipe pour cuisiner et servir des repas aux clients.
+Travaillé au grill, assemblé des burgers et géré la friture dans le cadre de mes responsabilités de cuisine.`,
+      technologies: ["Travail sous pression"],
     },
   ],
 };
@@ -85,125 +93,128 @@ export const EXPERIENCES = {
 export const EDUCATION = {
   EN:[
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2019 - 2024 : Paris, France",
+    role: "Computer Science Student",
+    company: "ISEP",
+    description: `Engineering school in Paris, France. Learned various subjects linked to Computer Science, Electronics and Engineering.`,
+    technologies: ["Java","Javascript", "Python", "PHP", "MySQL", "Electronics"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 (6 months) : Seoul, South Korea",
+    role: "Exchange Student",
+    company: "Sogang university",
+    description: `Exchange semester at Sogang University in Seoul, South Korea as part of my 5th year of study at ISEP.`,
+    technologies: [ "Java","UI/UX Design", "Machine Learning", "Python" ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2021 (6 months) : Prague, Czech Republic",
+    role: "Exchange Student",
+    company: "CVUT",
+    description: `Exchange semester at Czech University of Technology in Prague, Czech Republic as part of my 2th year of study at ISEP.`,
+    technologies: ["Java", "Networks", "Maths"],
   },],
-  FR :[
+
+
+  FR: [
     {
-      year: "2023 - Present",
-      role: "Senior Full Stack Developer",
-      company: "Google Inc.",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+      year: "2019 - 2024 : Paris, France",
+      role: "Étudiant en Informatique",
+      company: "ISEP",
+      description: `École d'ingénieurs à Paris, France. Acquis des connaissances dans divers domaines liés à l'informatique, l'électronique et l'ingénierie.`,
+      technologies: ["Java","Javascript", "Python", "PHP", "MySQL", "Électronique"],
     },
     {
-      year: "2022 - 2023",
-      role: "Frontend Developer",
-      company: "Adobe",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+      year: "2023 (6 mois) : Séoul, Corée du Sud",
+      role: "Étudiant en échange",
+      company: "Université Sogang",
+      description: `Semestre d'échange à l'Université Sogang à Séoul, Corée du Sud dans le cadre de ma 5ème année d'études à l'ISEP.`,
+      technologies: [ "Java","Conception UI/UX", "Apprentissage automatique", "Python" ],
     },
     {
-      year: "2021 - 2022",
-      role: "Full Stack Developer",
-      company: "Facebook",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+      year: "2021 (6 mois) : Prague, République tchèque",
+      role: "Étudiant en échange",
+      company: "CVUT",
+      description: `Semestre d'échange à l'Université technique de Prague en République tchèque dans le cadre de ma 2ème année d'études à l'ISEP.`,
+      technologies: ["Java", "Réseaux", "Mathématiques"],
     },
-    {
-      year: "2020 - 2021",
-      role: "Software Engineer",
-      company: "Paypal",
-      description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-      technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-    },]
+  ],
   };
 
 
 export const PROJECTS = {
   EN: [
     {
-      title: "E-Commerce Website",
-      image: project1,
-      description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-      technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    },
-    {
-      title: "Task Management App",
+      title: "IOT solution for employee health",
       image: project2,
       description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      technologies: ["HTML", "CSS", "Angular", "Firebase"],
+        "Built sensors that can track the temperature, noise and pollution of an area. Built a web site to allow a construction company to manage different work sites, assign workers to these sites and track the sensor data of the different sites to help maintain worker safety.",
+      technologies: ["PHP", "Javascript", "MySQL", "Electronics", "C"],
     },
     {
-      title: "Portfolio Website",
+      title: "Tailored Tourist Tours",
+      image: project1,
+      description:
+        "Built a website that makes an itinerary for a tourist visiting France by using a nearest insertion algorithm over a monuments data api for France.",
+      technologies: ["Java", "Javascript", "MySQL"],
+    },
+    {
+      title: "Yokai Game",
       image: project3,
       description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Bootstrap"],
+        "Made the Yokai card game using Java and JavaFX for a school project.",
+      technologies: ["Java"],
     },
     {
-      title: "Blogging Platform",
+      title: "SEBRA - UI/UX Design Project",
       image: project4,
       description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+        "Designing an app that centralizes user data to help the user track data related to their goals. Ex : Calorie Intake, Step Count and Sleep Score, for a user trying to improve his fitness level. The design project was made while working in an international team for my UX Design Class in South Korea.",
+      technologies: ["UI/UX Design"], 
+    },
+    {
+      title: "Seoul Semester Mozaic",
+      image: project4,
+      description:
+        "Made a mozaic made of pictures of my semester in Seoul to represent my time spent there. Was made for a weekly project on data visualization and photo collages in creative coding. ",
+      technologies: ["Processing", "Creative Coding"],
     },
   ],
 
   FR: [
     {
-      title: "TEST",
-      image: project1,
-      description:
-        "TESTing, shopping cart, and user authentication.",
-      technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    },
-    {
-      title: "Task Management App",
+      title: "Solution IOT pour la santé des employés",
       image: project2,
       description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      technologies: ["HTML", "CSS", "Angular", "Firebase"],
+        "Conçu des capteurs pour suivre la température, le bruit et la pollution d'une zone. Conçu un site web pour permettre à une entreprise de construction de gérer différents chantiers, d'affecter des travailleurs à ces chantiers et de suivre les données des capteurs des différents chantiers pour aider à maintenir la sécurité des travailleurs.",
+      technologies: ["PHP", "Javascript", "MySQL", "Électronique", "C"],
     },
     {
-      title: "Portfolio Website",
+      title: "Visites touristiques personnalisées",
+      image: project1,
+      description:
+        "Conçu un site web qui crée un itinéraire pour un touriste visitant la France en utilisant un algorithme d'insertion le plus proche sur une API de données de monuments pour la France.",
+      technologies: ["Java", "Javascript", "MySQL"],
+    },
+    {
+      title: "Jeu Yokai",
       image: project3,
       description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Bootstrap"],
+        "Conçu le jeu de cartes Yokai en utilisant Java et JavaFX pour un projet scolaire.",
+      technologies: ["Java"],
     },
     {
-      title: "Blogging Platform",
+      title: "SEBRA - Projet de conception UI/UX",
       image: project4,
       description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+        "Conception d'une application qui centralise les données de l'utilisateur pour l'aider à suivre les données liées à ses objectifs. Ex : Apport calorique, Compte de pas et Score de sommeil, pour un utilisateur qui essaie d'améliorer son niveau de forme physique. Le projet de conception a été réalisé en travaillant dans une équipe internationale pour ma classe de conception UX en Corée du Sud.",
+      technologies: ["Conception UI/UX"], 
+    },
+    {
+      title: "Mosaïque du semestre à Séoul",
+      image: project4,
+      description:
+        "Conçu une mosaïque faite de photos de mon semestre à Séoul pour représenter le temps que j'y ai passé. A été réalisé pour un projet hebdomadaire sur la visualisation de données et les collages de photos en codage créatif. ",
+      technologies: ["Processing", "Codage créatif"],
     },
   ],
 };
@@ -211,7 +222,7 @@ export const PROJECTS = {
 
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "92130 Issy Les Moulineaux, Ile de France, France",
+  phoneNo: "+336 95 50 28 54",
+  email: "christophesaury23@gmail.com",
 };
