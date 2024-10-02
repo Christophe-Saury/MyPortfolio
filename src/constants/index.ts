@@ -3,6 +3,7 @@ import project2 from "../assets/projects/tailoredTouristTour.png";
 import project3 from "../assets/projects/sebra.png";
 import project4 from "../assets/projects/yokaiCardGame.png";
 import project5 from "../assets/projects/seoulSemesterMozaic.png";
+import project6 from "../assets/projects/beautyProductsScanner.png";
 
 export const HERO_CONTENT = {
   EN: `I am a French-American full stack developer with an interest in serving users by building robust and scalable web applications. With 4 years of hands-on experience through my school projects and internships, I have honed my skills in back-end technologies like Java, Python, PHP and MySQL, as well as front-end technologies like React, Tailwind and Typescript. My goal is to keep improving my skills while creating innovative solutions that drive business growth and deliver exceptional user experiences.`,
@@ -162,7 +163,14 @@ export const PROJECTS = {
       title: "SEBRA - UI/UX Design Project",
       image: project3,
       description:
-        "Designing an app that centralizes user data to help the user track data related to their goals. Ex : Calorie Intake, Step Count and Sleep Score, for a user trying to improve his fitness level. The design project was made while working in an international team for my UX Design Class in South Korea.",
+        "Designed an app that centralizes user data to help the user track data related to their goals. Ex : Calorie Intake, Step Count and Sleep Score, for a user trying to improve his fitness level. The design project was made while working in an international team for my UX Design Class in South Korea.",
+      technologies: ["UI/UX Design"], 
+    },
+    {
+      title: "Beauty Products Scanner",
+      image: project6,
+      description:
+        "Designed a web app that scans Beauty Products and gives its price and user ratings as well as providing recommendations for the best products in each category based on the ratings.",
       technologies: ["UI/UX Design"], 
     },
     {
@@ -201,6 +209,13 @@ export const PROJECTS = {
       image: project3,
       description:
         "Conception d'une application qui centralise les données de l'utilisateur pour l'aider à suivre les données liées à ses objectifs. Ex : Apport calorique, Compte de pas et Score de sommeil, pour un utilisateur qui essaie d'améliorer son niveau de forme physique. Le projet de conception a été réalisé en travaillant dans une équipe internationale pour ma classe de conception UX en Corée du Sud.",
+      technologies: ["Conception UI/UX"], 
+    },
+    {
+      title: "Analyseur de Produits de Beauté",
+      image: project6,
+      description:
+        "Conçu une application web qui analyse les produits de beauté et affiche leur prix et les notes des utilisateurs, ainsi que des recommandations pour les meilleurs produits dans chaque catégorie en fonction des notes.",
       technologies: ["Conception UI/UX"], 
     },
     {
