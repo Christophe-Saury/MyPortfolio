@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/appCapteurSiteWeb.png";
+import project2 from "../assets/projects/tailoredTouristTour.png";
+import project3 from "../assets/projects/sebra.png";
+import project4 from "../assets/projects/yokaiCardGame.png";
+import project5 from "../assets/projects/seoulSemesterMozaic.png";
 
 export const HERO_CONTENT = {
   EN: `I am a French-American full stack developer with an interest in serving users by building robust and scalable web applications. With 4 years of hands-on experience through my school projects and internships, I have honed my skills in back-end technologies like Java, Python, PHP and MySQL, as well as front-end technologies like React, Tailwind and Typescript. My goal is to keep improving my skills while creating innovative solutions that drive business growth and deliver exceptional user experiences.`,
@@ -145,35 +146,35 @@ export const PROJECTS = {
   EN: [
     {
       title: "IOT solution for employee health",
-      image: project2,
+      image: project1,
       description:
         "Built sensors that can track the temperature, noise and pollution of an area. Built a web site to allow a construction company to manage different work sites, assign workers to these sites and track the sensor data of the different sites to help maintain worker safety.",
       technologies: ["PHP", "Javascript", "MySQL", "Electronics", "C"],
     },
     {
       title: "Tailored Tourist Tours",
-      image: project1,
+      image: project2,
       description:
         "Built a website that makes an itinerary for a tourist visiting France by using a nearest insertion algorithm over a monuments data api for France.",
       technologies: ["Java", "Javascript", "MySQL"],
     },
     {
-      title: "Yokai Game",
-      image: project3,
-      description:
-        "Made the Yokai card game using Java and JavaFX for a school project.",
-      technologies: ["Java"],
-    },
-    {
       title: "SEBRA - UI/UX Design Project",
-      image: project4,
+      image: project3,
       description:
         "Designing an app that centralizes user data to help the user track data related to their goals. Ex : Calorie Intake, Step Count and Sleep Score, for a user trying to improve his fitness level. The design project was made while working in an international team for my UX Design Class in South Korea.",
       technologies: ["UI/UX Design"], 
     },
     {
-      title: "Seoul Semester Mozaic",
+      title: "Yokai Game",
       image: project4,
+      description:
+        "Made the Yokai card game using Java and JavaFX for a school project.",
+      technologies: ["Java"],
+    },
+    {
+      title: "Seoul Semester Mozaic",
+      image: project5,
       description:
         "Made a mozaic made of pictures of my semester in Seoul to represent my time spent there. Was made for a weekly project on data visualization and photo collages in creative coding. ",
       technologies: ["Processing", "Creative Coding"],
@@ -183,38 +184,38 @@ export const PROJECTS = {
   FR: [
     {
       title: "Solution IOT pour la santé des employés",
-      image: project2,
+      image: project1,
       description:
         "Conçu des capteurs pour suivre la température, le bruit et la pollution d'une zone. Conçu un site web pour permettre à une entreprise de construction de gérer différents chantiers, d'affecter des travailleurs à ces chantiers et de suivre les données des capteurs des différents chantiers pour aider à maintenir la sécurité des travailleurs.",
       technologies: ["PHP", "Javascript", "MySQL", "Électronique", "C"],
     },
     {
       title: "Visites touristiques personnalisées",
-      image: project1,
+      image: project2,
       description:
         "Conçu un site web qui crée un itinéraire pour un touriste visitant la France en utilisant un algorithme d'insertion le plus proche sur une API de données de monuments pour la France.",
       technologies: ["Java", "Javascript", "MySQL"],
     },
     {
-      title: "Jeu Yokai",
-      image: project3,
-      description:
-        "Conçu le jeu de cartes Yokai en utilisant Java et JavaFX pour un projet scolaire.",
-      technologies: ["Java"],
-    },
-    {
       title: "SEBRA - Projet de conception UI/UX",
-      image: project4,
+      image: project3,
       description:
         "Conception d'une application qui centralise les données de l'utilisateur pour l'aider à suivre les données liées à ses objectifs. Ex : Apport calorique, Compte de pas et Score de sommeil, pour un utilisateur qui essaie d'améliorer son niveau de forme physique. Le projet de conception a été réalisé en travaillant dans une équipe internationale pour ma classe de conception UX en Corée du Sud.",
       technologies: ["Conception UI/UX"], 
     },
     {
-      title: "Mosaïque du semestre à Séoul",
+      title: "Jeu Yokai",
       image: project4,
       description:
+        "Conçu le jeu de cartes Yokai en utilisant Java et JavaFX pour un projet scolaire.",
+      technologies: ["Java"],
+    },
+    {
+      title: "Mosaïque du semestre à Séoul",
+      image: project5,
+      description:
         "Conçu une mosaïque faite de photos de mon semestre à Séoul pour représenter le temps que j'y ai passé. A été réalisé pour un projet hebdomadaire sur la visualisation de données et les collages de photos en codage créatif. ",
-      technologies: ["Processing", "Codage créatif"],
+      technologies: ["Processing", "Creative Coding"],
     },
   ],
 };
