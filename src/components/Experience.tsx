@@ -7,7 +7,7 @@ const Experience = () => {
   const { language } = useContext(LanguageContext);
   const experienceText = language === "EN" ? EXPERIENCES.EN : EXPERIENCES.FR;
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4 overflow-hidden">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

@@ -19,7 +19,7 @@ export const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-center">
+          <div className="flex flex-col items-center lg:items-center overflow-hidden">
             <motion.h1
               variants={container(0)}
               initial="hidden"

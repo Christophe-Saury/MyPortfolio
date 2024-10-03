@@ -7,7 +7,7 @@ const Projects = () => {
   const { language } = useContext(LanguageContext);
   const projectText = language === "EN" ? PROJECTS.EN : PROJECTS.FR;
   return (
-    <div className=" pb-8">
+    <div className=" pb-8 overflow-hidden">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

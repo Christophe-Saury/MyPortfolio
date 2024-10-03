@@ -16,11 +16,11 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="mb-2 flex items-center justify-between ">
+    <nav className="mb-2 flex items-center justify-between overflow-hidden ">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
-      <div className="m-16 flex flex-row items-center justify-center gap-4 text-2xl ">
+      <div className="m-16 flex flex-row items-center justify-center gap-4 text-2xl  ">
         <a
           target="_blank"
           rel="noreferrer"
