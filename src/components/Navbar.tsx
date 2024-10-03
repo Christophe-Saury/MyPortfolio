@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import logo from "../assets/new_logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";

@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 import { LanguageContext } from "../context/LanguageContext";

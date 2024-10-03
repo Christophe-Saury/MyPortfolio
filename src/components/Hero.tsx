@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 import { LanguageContext } from "../context/LanguageContext";
