@@ -1,4 +1,3 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
