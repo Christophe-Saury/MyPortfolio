@@ -1,6 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext.tsx";
 
 const Projects = () => {
