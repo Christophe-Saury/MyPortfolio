@@ -30,7 +30,7 @@ const Projects = () => {
             >
               <img
                 src={project.image}
-                width={200}
+                width={200} //replace by constants
                 height={200}
                 alt={project.title}
                 className="mb-6 rounded ml-0 justify-self-center sm:ml-12 sm:justify-self-start "
