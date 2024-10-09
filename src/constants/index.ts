@@ -4,7 +4,7 @@ import project3 from "../assets/projects/sebra.png";
 import project4 from "../assets/projects/yokaiCardGame.png";
 import project5 from "../assets/projects/seoulSemesterMozaic.png";
 import project6 from "../assets/projects/beautyProductsScanner.png";
-import project7 from "../assets/projects/orthos.png";
+//import project7 from "../assets/projects/orthos.png";
 
 export const HERO_CONTENT = {
   EN: `I am a French-American full stack developer with an interest in serving users by building robust and scalable web applications. With 4 years of hands-on experience through my school projects and internships, I have honed my skills in back-end technologies like Java, Python, PHP and MySQL, as well as front-end technologies like React, Tailwind and Typescript. My goal is to keep improving my skills while creating innovative solutions that drive business growth and deliver exceptional user experiences.`,
@@ -146,13 +146,13 @@ export const EDUCATION = {
 
 export const PROJECTS = {
   EN: [
-    {
+  /*  {
       title: "Orthos",
       image: project7,
       description:
         "App that manages the demands for access to the Brest Naval Base, an experimental version was made by me during my time at the Marine Nationale (French Navy).",
       technologies: ["PHP", "MySQL","Javascript", "HTML", "CSS" , "W2UI"],
-    },
+    },*/
     {
       title: "IOT solution for employee health",
       image: project1,
@@ -198,10 +198,10 @@ export const PROJECTS = {
   ],
 
   FR: [
-    {      title: "Orthos",      
+   /* {      title: "Orthos",      
       image: project7,      
       description:          "Application qui gère les demandes d'accès à la base navale de Brest, une version expérimentale a été réalisée par moi-même pendant mon temps à la Marine Nationale (Marine française).",      
-      technologies: ["PHP", "MySQL", "Javascript", "HTML", "CSS", "W2UI"],   },
+      technologies: ["PHP", "MySQL", "Javascript", "HTML", "CSS", "W2UI"],   }, */
     {
       title: "Solution IOT pour la santé des employés",
       image: project1,
