@@ -1,4 +1,7 @@
 To publish a new version :
+npm run predeploy
+npm run deploy
+https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
 
 
 # React + TypeScript + Vite
