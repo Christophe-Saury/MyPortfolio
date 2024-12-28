@@ -23,7 +23,14 @@ export const ABOUT_TEXT = {
 export const EXPERIENCES = {
   EN: [
     {
-      year: "2024 - Present : (6 Months)",
+      year: "Nov 2024 - Present :",
+      role: "Full-Stack Developer",
+      company: "Wezen",
+      description: `Responsible for adding new features and bug fixes to the existing web application. Worked on the front-end and back-end of the application.`,
+      technologies: ["Java", "Angular", "MySQL"],
+    },
+    {
+      year: "Feb -> Aug 2024 : (6 Months)",
       role: "IT Project Lead",
       company: "Devoteam",
       description: `Lead initiatives aimed at securing computer data flows for Carrefour Banque, ensuring compliance with GDPR regulations and mitigating any potential legal issues.`,
@@ -57,6 +64,13 @@ Worked the grill, assembled burgers, and handled frying as part of my kitchen re
     },
   ],
   FR: [
+    {
+      year: "Nov 2024 - Present :",
+      role: "Développeur Full-Stack",
+      company: "Wezen",
+      description: `Responsable de l'ajout de nouvelles features, des corrections de bugs et de la mise à jour de l'application existante. Travail sur le front-end et le back-end de l'application.`,
+      technologies: ["Java", "Angular", "MySQL"],
+    },
     {
       year: "2024 - Présent : (6 Mois)",
       role: "Chef de Projet IT",
